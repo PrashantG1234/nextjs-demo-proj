@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"const p = require\\('./node_modules/@ai-sdk/anthropic/node_modules/@ai-sdk/provider/package.json'\\); console.log\\(p.version\\)\")",
+      "Bash(node *)",
+      "Bash(npx cross-env *)",
+      "Bash(awk NR>=12881 && NR<=12960 *)",
+      "PowerShell(Set-ExecutionPolicy *)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_take_screenshot"
+    ]
+  }
+}

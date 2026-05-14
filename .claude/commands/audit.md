@@ -1,0 +1,1 @@
+Your goal is to run `npm run dev` command and check if server is running and started if some build error you get you have to fix that as well. Also check if server is already running if yes then update the user same.
